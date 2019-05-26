@@ -1,0 +1,13 @@
+opam-version: "2.0"
+name: "thkv"
+version: "0.2"
+synopsis: "Simple key-value store in OCaml"
+description: "Simple key-value store in OCaml"
+maintainer: "Tobe O <thosakwe@gmail.com>"
+authors: "Tobe O <thosakwe@gmail.com>"
+license: "https://github.com/thosakwe/thkv/LICENSE"
+homepage: "https://github.com/thosakwe/thkv"
+bug-reports: "https://github.com/thosakwe/thkv/issues"
+dev-repo: "git://github.com/thosakwe/thkv"
+depends: [ "ocaml" "ocamlfind" ]
+build: ["dune" "build" "-p" name "-j" jobs]
